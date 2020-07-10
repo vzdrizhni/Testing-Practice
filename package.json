@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "eslint-config-airbnb": "^18.2.0",
-    "eslint-plugin-import": "^2.22.0"
+    "eslint-plugin-import": "^2.22.0",
+    "glob": "^7.1.6"
   }
 }
