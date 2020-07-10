@@ -1,7 +1,7 @@
 {
-  "name": "Testing-Practice",
+  "name": "testing-practice",
   "version": "1.0.0",
-  "description": "",
+  "description": "Testing Practice",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -14,15 +14,19 @@
     "url": "git+https://github.com/vzdrizhni/Testing-Practice.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Nikulay / Bangau",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vzdrizhni/Testing-Practice/issues"
   },
   "homepage": "https://github.com/vzdrizhni/Testing-Practice#readme",
   "devDependencies": {
+    "eslint-plugin-import": "^2.22.0",
     "jest": "^26.1.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^18.2.0"
   }
 }
