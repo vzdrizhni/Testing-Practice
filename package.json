@@ -27,6 +27,7 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "eslint-config-airbnb": "^18.2.0"
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0"
   }
 }
