@@ -1,4 +1,4 @@
-const { calculator} = require('./calculator');
+const { calculator } = require('./calculator');
 
 test('Should return addition of two numbers', () => {
   const num = calculator.add(3, 3);

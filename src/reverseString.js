@@ -1,3 +1,1 @@
-exports.reverseString = (string) => {
-  return string.split("").reverse().join("")
-}
+exports.reverseString = (string) => string.split('').reverse().join('');

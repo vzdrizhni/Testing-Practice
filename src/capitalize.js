@@ -1,3 +1,1 @@
-exports.capitalize = (string) => {
-  return string.charAt(0).toUpperCase() + string.slice(1);
-}
+exports.capitalize = (string) => string.charAt(0).toUpperCase() + string.slice(1);
