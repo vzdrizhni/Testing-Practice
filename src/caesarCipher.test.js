@@ -1,4 +1,4 @@
-const caesarCipher = require('./caesarCipher');
+const { caesarCipher } = require('./caesarCipher');
 
 test('Should shift three chars forward', () => {
   const num = caesarCipher('huihui', 3);

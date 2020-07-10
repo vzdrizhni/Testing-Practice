@@ -1,8 +1,8 @@
-let caesar = (str, key) => {
+exports.caesarCipher = (str, key) => {
 
   let decipher = '';
 
-  for(i=0; i<str.length;i++) {
+  for( i = 0; i < str.length; i++)  {
     let char = str[i];
     if(str[i].match(/[a-z]/i)) {
       let code = str.charCodeAt(i);
@@ -18,5 +18,3 @@ let caesar = (str, key) => {
 
   return decipher;
 };
-
-module.exports = caesar;
